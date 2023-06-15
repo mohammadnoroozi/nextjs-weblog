@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 async function getData() {
-  const res = await fetch("https://jsonplaceholder.typicode.com/posts", {
+  const res = await fetch("https://nextjs-weblog.vercel.app/api/posts", {
     method: "GET",
     cache: "no-store"
   });
